@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- 按钮上文字大小 -->
+    <dimen name="button_text_size">24sp</dimen>
+    
+    <!-- 显示区域和输入键盘区域的间距 -->
+    <dimen name="pad_marginTop">15dp</dimen>
+    
+    <!-- 按键每行之间的间距 -->
+    <dimen name="pad_row_margin_size">8dp</dimen>
+    
+    <!-- 按键每列之间的间距 -->
+    <dimen name="pad_column_margin_size">8dp</dimen>
+    
+    <!-- 显示框字体大小 -->
+    <dimen name="display_text_size">30sp</dimen>
+
+</resources>

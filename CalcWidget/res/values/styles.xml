@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="button_style">		
+		<item name="android:textSize">@dimen/button_text_size</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>							
+		<item name="android:layout_weight">1</item> <!-- 这个属性如果不加上的话，最后一列显示不全 -->
+		<item name="android:clickable">true</item>
+		<item name="android:focusable">false</item>
+    </style>
+
+    <style name="button_digit_style" parent="button_style">        
+        <item name="android:background">@drawable/btn_digit</item>         
+    </style>
+    
+    <style name="button_fun_style" parent="button_style">        
+        <item name="android:background">@drawable/btn_fun</item>         
+    </style>
+    
+    <style name="button_equals_style" parent="button_style">        
+        <item name="android:background">@drawable/btn_equals</item>         
+    </style>
+    
+    <style name="button_del_style" parent="button_style">        
+        <item name="android:background">@drawable/btn_del</item>
+    </style>
+</resources>
